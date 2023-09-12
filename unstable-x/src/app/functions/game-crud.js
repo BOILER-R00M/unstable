@@ -28,9 +28,11 @@ export const createNewGame = (users, platform, gameName, setCurrentGame) => {
         handSize: 7,
         hand: [],
         stable: [],
+        field: [],
         turn: false,
         status: "player", // other options player and spectator
         buffs: [],
+        debuff: [],
         immunities: [],
     }
 
