@@ -1,0 +1,16 @@
+.trapezoid {
+    clip-path: polygon(
+        30vw 15vh, /* top-left: right, down */
+        70vw 15vh, /* top-right: right, down */
+        97vw 70vh, /* bottom-right: right, down  */
+        3vw 70vh); /* bottom-left: right, down*/
+}
+
+
+.topPlayer {
+    clip-path: polygon(
+        31vw 16vh, /* top-left: right, down */
+        69vw 16vh, /* top-right: right, down */
+        72vw 23vh, /* bottom-right: right, down  */
+        28vw 23vh); /* bottom-left: right, down*/
+}
