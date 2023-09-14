@@ -10,6 +10,7 @@ export default function Game() {
 
     return (
         <div className="p-0">
+            GAME PAGE
             {/* <PlayerCardList /> */}
             <NewGame />
             <GameBoard />
